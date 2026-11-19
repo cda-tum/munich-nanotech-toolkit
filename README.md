@@ -9,33 +9,58 @@
 
 # Munich Nanotech Toolkit
 
-The Munich Nanotech Toolkit (MNT) is a collection of open-source design automation tools for field-coupled
-nanocomputing (FCN) from the Chair for Design Automation at the Technical University of Munich. The tools cover
-logic synthesis, placement and routing, layout verification, technology mapping, and physical simulation.
-Supported technologies include quantum-dot cellular automata (QCA), in-plane nanomagnet logic (iNML), and silicon
-dangling bonds (SiDBs).
+The *Munich Nanotech Toolkit* (MNT) is a collection of open-source design automation tools for *Field-coupled Nanocomputing* (FCN) from the Chair for Design Automation at the Technical University of Munich. The tools cover logic synthesis, placement and routing, layout verification, technology mapping, and physical simulation.
 
-[MNT at TUM](https://www.cda.cit.tum.de/research/nanotech/mnt/) ·
-[*fiction* documentation](https://fiction.readthedocs.io/) ·
-[MNT flyer (PDF)](https://www.cda.cit.tum.de/flyers/mnt_flyer.pdf)
+Supported technologies include *Quantum-dot Cellular Automata* (QCA), *In-plane Nanomagnet Logic* (iNML), and *Silicon Dangling Bonds* (SiDBs).
+
+[MNT at TUM](https://www.cda.cit.tum.de/research/nanotech/mnt/) · [*fiction* documentation](https://fiction.readthedocs.io/)
+
+## MNT Flyer
+
+<table>
+  <tr>
+    <td>
+      <a href="https://www.cda.cit.tum.de/flyers/mnt_flyer.pdf">
+        <img src="assets/mnt-flyer.png" width="150" alt="Preview of the official Munich Nanotech Toolkit flyer">
+      </a>
+    </td>
+    <td>
+      The flyer shows how logic synthesis, physical design, verification, and simulation fit into the MNT workflow.<br><br>
+      <a href="https://www.cda.cit.tum.de/flyers/mnt_flyer.pdf">Download the MNT flyer (PDF)</a>
+    </td>
+  </tr>
+</table>
 
 ## Tools
 
-- [*fiction*](https://github.com/cda-tum/fiction) — C++ library, Python bindings, and command-line interface for logic synthesis, physical design, verification, and SiDB simulation. [Documentation](https://fiction.readthedocs.io/)
-- [MNT Designer](https://github.com/cda-tum/mnt-designer) — Graphical workspace for creating, editing, checking, and exporting FCN circuit layouts. [Usage](https://github.com/cda-tum/mnt-designer#usage-of-mnt-designer)
-- [MNT NanoPlaceR](https://github.com/cda-tum/mnt-nanoplacer) — Reinforcement learning for gate placement with routing during placement. [Usage](https://github.com/cda-tum/mnt-nanoplacer#usage)
-- [MNT Bench](https://github.com/cda-tum/mnt-bench) — Benchmark circuits and layouts for comparing FCN design methods. [Benchmark explorer](https://www.cda.cit.tum.de/mntbench/) · [Documentation](https://www.cda.cit.tum.de/mntbench/description)
-- [Operational Domain Explorer](https://github.com/cda-tum/mnt-opdom-explorer) — Graphical tool for exploring the physical parameters under which SiDB gates operate correctly. [Documentation](https://github.com/cda-tum/mnt-opdom-explorer#readme)
-- [Plugins for SiQAD](https://github.com/cda-tum/mnt-siqad-plugins) — ClusterComplete, QuickExact, and QuickSim simulation engines for the SiQAD graphical environment. [Quick start](https://github.com/cda-tum/mnt-siqad-plugins#quick-start)
-- [Bestagon Gate Library](https://github.com/cda-tum/mnt-bestagon-library) — Hexagonal gate layouts and simulation files for SiDB logic. [Gate library files](https://github.com/cda-tum/mnt-bestagon-library#readme)
+- [*fiction*](https://github.com/cda-tum/fiction) — C++ library, Python bindings, and command-line interface for logic synthesis, physical design, verification, and SiDB simulation. [Documentation](https://fiction.readthedocs.io/) · [Issues](https://github.com/cda-tum/fiction/issues)
+- [*MNT Designer*](https://github.com/cda-tum/mnt-designer) — Graphical workspace for creating, editing, checking, and exporting FCN circuit layouts. [Usage](https://github.com/cda-tum/mnt-designer#usage-of-mnt-designer) · [Issues](https://github.com/cda-tum/mnt-designer/issues)
+- [*MNT NanoPlaceR*](https://github.com/cda-tum/mnt-nanoplacer) — Reinforcement learning for gate placement with routing during placement. [Usage](https://github.com/cda-tum/mnt-nanoplacer#usage) · [Issues](https://github.com/cda-tum/mnt-nanoplacer/issues)
+- [*MNT Bench*](https://github.com/cda-tum/mnt-bench) — Benchmark circuits and layouts for comparing FCN design methods. [Benchmark explorer](https://www.cda.cit.tum.de/mntbench/) · [Documentation](https://www.cda.cit.tum.de/mntbench/description) · [Issues](https://github.com/cda-tum/mnt-bench/issues)
+- [*Operational Domain Explorer*](https://github.com/cda-tum/mnt-opdom-explorer) — Graphical tool for exploring the physical parameters under which SiDB gates operate correctly. [Documentation](https://github.com/cda-tum/mnt-opdom-explorer#readme) · [Issues](https://github.com/cda-tum/mnt-opdom-explorer/issues)
+- [*Plugins for SiQAD*](https://github.com/cda-tum/mnt-siqad-plugins) — ClusterComplete, QuickExact, and QuickSim simulation engines for the SiQAD graphical environment. [Quick start](https://github.com/cda-tum/mnt-siqad-plugins#quick-start) · [Issues](https://github.com/cda-tum/mnt-siqad-plugins/issues)
+- [*Bestagon Gate Library*](https://github.com/cda-tum/mnt-bestagon-library) — Hexagonal gate layouts and simulation files for SiDB logic. [Gate library files](https://github.com/cda-tum/mnt-bestagon-library#readme) · [Issues](https://github.com/cda-tum/mnt-bestagon-library/issues)
 
 ## Book
 
-[*Design Automation for Field-coupled Nanotechnologies*](https://link.springer.com/book/10.1007/978-3-030-89952-3)
-covers physical design, clocking, and formal verification for FCN and introduces the *fiction* framework.
-Marcel Walter, Robert Wille, Frank Sill Torres, and Rolf Drechsler. Springer, 2022.
+<table>
+  <tr>
+    <td>
+      <a href="https://link.springer.com/book/10.1007/978-3-030-89952-3">
+        <img src="https://media.springernature.com/w153/springer-static/cover/book/978-3-030-89952-3.jpg" width="150" alt="Cover of Design Automation for Field-coupled Nanotechnologies">
+      </a>
+    </td>
+    <td>
+      <strong><em>Design Automation for Field-coupled Nanotechnologies</em></strong><br>
+      Marcel Walter, Robert Wille, Frank Sill Torres, and Rolf Drechsler<br>
+      Springer, 2022 · <a href="https://doi.org/10.1007/978-3-030-89952-3">DOI 10.1007/978-3-030-89952-3</a><br><br>
+      Covers physical design, clocking, and formal verification for FCN and introduces the <em>fiction</em> framework.<br><br>
+      <a href="https://link.springer.com/book/10.1007/978-3-030-89952-3">View the book on Springer</a>
+    </td>
+  </tr>
+</table>
 
-## Cite MNT
+## Cite This
 
 If you use the toolkit in your research, cite the
 [MNT paper](https://doi.org/10.1109/NANO61778.2024.10628747).
@@ -51,21 +76,21 @@ If you use the toolkit in your research, cite the
 }
 ```
 
-## GitHub information
+## GitHub Information
 
-| Repository | Issue tracker | Latest release | Forks | Stars |
-| --- | --- | ---: | ---: | ---: |
-| [`fiction`](https://github.com/cda-tum/fiction) | [Issues](https://github.com/cda-tum/fiction/issues) | [![Latest release][badge-fiction-release]](https://github.com/cda-tum/fiction/releases/latest) | [![Forks][badge-fiction-forks]](https://github.com/cda-tum/fiction/forks) | [![Stars][badge-fiction-stars]](https://github.com/cda-tum/fiction) |
-| [`mnt-designer`](https://github.com/cda-tum/mnt-designer) | [Issues](https://github.com/cda-tum/mnt-designer/issues) | [![Latest release][badge-mnt-designer-release]](https://github.com/cda-tum/mnt-designer/releases/latest) | [![Forks][badge-mnt-designer-forks]](https://github.com/cda-tum/mnt-designer/forks) | [![Stars][badge-mnt-designer-stars]](https://github.com/cda-tum/mnt-designer) |
-| [`mnt-nanoplacer`](https://github.com/cda-tum/mnt-nanoplacer) | [Issues](https://github.com/cda-tum/mnt-nanoplacer/issues) | [![Latest release][badge-mnt-nanoplacer-release]](https://github.com/cda-tum/mnt-nanoplacer/releases/latest) | [![Forks][badge-mnt-nanoplacer-forks]](https://github.com/cda-tum/mnt-nanoplacer/forks) | [![Stars][badge-mnt-nanoplacer-stars]](https://github.com/cda-tum/mnt-nanoplacer) |
-| [`mnt-bench`](https://github.com/cda-tum/mnt-bench) | [Issues](https://github.com/cda-tum/mnt-bench/issues) | [![Latest release][badge-mnt-bench-release]](https://github.com/cda-tum/mnt-bench/releases/latest) | [![Forks][badge-mnt-bench-forks]](https://github.com/cda-tum/mnt-bench/forks) | [![Stars][badge-mnt-bench-stars]](https://github.com/cda-tum/mnt-bench) |
-| [`mnt-opdom-explorer`](https://github.com/cda-tum/mnt-opdom-explorer) | [Issues](https://github.com/cda-tum/mnt-opdom-explorer/issues) | — | [![Forks][badge-mnt-opdom-explorer-forks]](https://github.com/cda-tum/mnt-opdom-explorer/forks) | [![Stars][badge-mnt-opdom-explorer-stars]](https://github.com/cda-tum/mnt-opdom-explorer) |
-| [`mnt-siqad-plugins`](https://github.com/cda-tum/mnt-siqad-plugins) | [Issues](https://github.com/cda-tum/mnt-siqad-plugins/issues) | [![Latest release][badge-mnt-siqad-plugins-release]](https://github.com/cda-tum/mnt-siqad-plugins/releases/latest) | [![Forks][badge-mnt-siqad-plugins-forks]](https://github.com/cda-tum/mnt-siqad-plugins/forks) | [![Stars][badge-mnt-siqad-plugins-stars]](https://github.com/cda-tum/mnt-siqad-plugins) |
-| [`mnt-bestagon-library`](https://github.com/cda-tum/mnt-bestagon-library) | [Issues](https://github.com/cda-tum/mnt-bestagon-library/issues) | — | [![Forks][badge-mnt-bestagon-library-forks]](https://github.com/cda-tum/mnt-bestagon-library/forks) | [![Stars][badge-mnt-bestagon-library-stars]](https://github.com/cda-tum/mnt-bestagon-library) |
+| GitHub Project | Latest Version | Forks | Stars |
+| --- | ---: | ---: | ---: |
+| [`fiction`](https://github.com/cda-tum/fiction) | [![Latest release][badge-fiction-release]](https://github.com/cda-tum/fiction/releases/latest) | [![Forks][badge-fiction-forks]](https://github.com/cda-tum/fiction/forks) | [![Stars][badge-fiction-stars]](https://github.com/cda-tum/fiction) |
+| [`mnt-designer`](https://github.com/cda-tum/mnt-designer) | [![Latest release][badge-mnt-designer-release]](https://github.com/cda-tum/mnt-designer/releases/latest) | [![Forks][badge-mnt-designer-forks]](https://github.com/cda-tum/mnt-designer/forks) | [![Stars][badge-mnt-designer-stars]](https://github.com/cda-tum/mnt-designer) |
+| [`mnt-nanoplacer`](https://github.com/cda-tum/mnt-nanoplacer) | [![Latest release][badge-mnt-nanoplacer-release]](https://github.com/cda-tum/mnt-nanoplacer/releases/latest) | [![Forks][badge-mnt-nanoplacer-forks]](https://github.com/cda-tum/mnt-nanoplacer/forks) | [![Stars][badge-mnt-nanoplacer-stars]](https://github.com/cda-tum/mnt-nanoplacer) |
+| [`mnt-bench`](https://github.com/cda-tum/mnt-bench) | [![Latest release][badge-mnt-bench-release]](https://github.com/cda-tum/mnt-bench/releases/latest) | [![Forks][badge-mnt-bench-forks]](https://github.com/cda-tum/mnt-bench/forks) | [![Stars][badge-mnt-bench-stars]](https://github.com/cda-tum/mnt-bench) |
+| [`mnt-opdom-explorer`](https://github.com/cda-tum/mnt-opdom-explorer) | — | [![Forks][badge-mnt-opdom-explorer-forks]](https://github.com/cda-tum/mnt-opdom-explorer/forks) | [![Stars][badge-mnt-opdom-explorer-stars]](https://github.com/cda-tum/mnt-opdom-explorer) |
+| [`mnt-siqad-plugins`](https://github.com/cda-tum/mnt-siqad-plugins) | [![Latest release][badge-mnt-siqad-plugins-release]](https://github.com/cda-tum/mnt-siqad-plugins/releases/latest) | [![Forks][badge-mnt-siqad-plugins-forks]](https://github.com/cda-tum/mnt-siqad-plugins/forks) | [![Stars][badge-mnt-siqad-plugins-stars]](https://github.com/cda-tum/mnt-siqad-plugins) |
+| [`mnt-bestagon-library`](https://github.com/cda-tum/mnt-bestagon-library) | — | [![Forks][badge-mnt-bestagon-library-forks]](https://github.com/cda-tum/mnt-bestagon-library/forks) | [![Stars][badge-mnt-bestagon-library-stars]](https://github.com/cda-tum/mnt-bestagon-library) |
 
-## PyPI downloads
+## PyPI Downloads
 
-| Package | Latest version | Weekly | Monthly | Total |
+| Package | Latest Version | Weekly | Monthly | Total |
 | --- | ---: | ---: | ---: | ---: |
 | [`mnt.pyfiction`](https://pypi.org/project/mnt-pyfiction/) | [![PyPI version][badge-mnt-pyfiction-pypi]](https://pypi.org/project/mnt-pyfiction/) | [![Weekly downloads][badge-mnt-pyfiction-weekly]](https://pypistats.org/packages/mnt-pyfiction) | [![Monthly downloads][badge-mnt-pyfiction-monthly]](https://pypistats.org/packages/mnt-pyfiction) | [![Total downloads][badge-mnt-pyfiction-total]](https://pepy.tech/projects/mnt-pyfiction) |
 | [`mnt.bench`](https://pypi.org/project/mnt-bench/) | [![PyPI version][badge-mnt-bench-pypi]](https://pypi.org/project/mnt-bench/) | [![Weekly downloads][badge-mnt-bench-weekly]](https://pypistats.org/packages/mnt-bench) | [![Monthly downloads][badge-mnt-bench-monthly]](https://pypistats.org/packages/mnt-bench) | [![Total downloads][badge-mnt-bench-total]](https://pepy.tech/projects/mnt-bench) |
