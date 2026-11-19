@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use the Munich Nanotech Toolkit, please cite the paper below."
+title: "Munich Nanotech Toolkit"
+authors:
+  - family-names: Walter
+    given-names: Marcel
+  - family-names: Drewniok
+    given-names: Jan
+  - family-names: Hofmann
+    given-names: Simon
+  - family-names: Hien
+    given-names: Benjamin
+  - family-names: Wille
+    given-names: Robert
+repository-code: https://github.com/cda-tum/munich-nanotech-toolkit
+url: https://www.cda.cit.tum.de/research/nanotech/mnt/
+preferred-citation:
+  type: conference-paper
+  title: "The Munich Nanotech Toolkit (MNT)"
+  authors:
+    - family-names: Walter
+      given-names: Marcel
+    - family-names: Drewniok
+      given-names: Jan
+    - family-names: Hofmann
+      given-names: Simon
+    - family-names: Hien
+      given-names: Benjamin
+    - family-names: Wille
+      given-names: Robert
+  collection-title: "2024 IEEE 24th International Conference on Nanotechnology (NANO)"
+  year: 2024
+  start: 454
+  end: 459
+  doi: 10.1109/NANO61778.2024.10628747
