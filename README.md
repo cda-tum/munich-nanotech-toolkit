@@ -33,13 +33,13 @@ Supported technologies include *Quantum-dot Cellular Automata* (QCA), *In-plane 
 
 ## Tools
 
-- [*fiction*](https://github.com/cda-tum/fiction) — C++ library, Python bindings, and command-line interface for logic synthesis, physical design, verification, and SiDB simulation. [Documentation](https://fiction.readthedocs.io/) · [Issues](https://github.com/cda-tum/fiction/issues)
-- [*MNT Designer*](https://github.com/cda-tum/mnt-designer) — Graphical workspace for creating, editing, checking, and exporting FCN circuit layouts. [Usage](https://github.com/cda-tum/mnt-designer#usage-of-mnt-designer) · [Issues](https://github.com/cda-tum/mnt-designer/issues)
-- [*MNT NanoPlaceR*](https://github.com/cda-tum/mnt-nanoplacer) — Reinforcement learning for gate placement with routing during placement. [Usage](https://github.com/cda-tum/mnt-nanoplacer#usage) · [Issues](https://github.com/cda-tum/mnt-nanoplacer/issues)
-- [*MNT Bench*](https://github.com/cda-tum/mnt-bench) — Benchmark circuits and layouts for comparing FCN design methods. [Benchmark explorer](https://www.cda.cit.tum.de/mntbench/) · [Documentation](https://www.cda.cit.tum.de/mntbench/description) · [Issues](https://github.com/cda-tum/mnt-bench/issues)
-- [*Operational Domain Explorer*](https://github.com/cda-tum/mnt-opdom-explorer) — Graphical tool for exploring the physical parameters under which SiDB gates operate correctly. [Documentation](https://github.com/cda-tum/mnt-opdom-explorer#readme) · [Issues](https://github.com/cda-tum/mnt-opdom-explorer/issues)
-- [*Plugins for SiQAD*](https://github.com/cda-tum/mnt-siqad-plugins) — ClusterComplete, QuickExact, and QuickSim simulation engines for the SiQAD graphical environment. [Quick start](https://github.com/cda-tum/mnt-siqad-plugins#quick-start) · [Issues](https://github.com/cda-tum/mnt-siqad-plugins/issues)
-- [*Bestagon Gate Library*](https://github.com/cda-tum/mnt-bestagon-library) — Hexagonal gate layouts and simulation files for SiDB logic. [Gate library files](https://github.com/cda-tum/mnt-bestagon-library#readme) · [Issues](https://github.com/cda-tum/mnt-bestagon-library/issues)
+- [*fiction*](https://github.com/cda-tum/fiction) — C++ library, Python bindings, and command-line interface for logic synthesis, physical design, verification, and SiDB simulation. [Documentation](https://fiction.readthedocs.io/)
+- [*MNT Designer*](https://github.com/cda-tum/mnt-designer) — Graphical workspace for creating, editing, checking, and exporting FCN circuit layouts. [Usage](https://github.com/cda-tum/mnt-designer#usage-of-mnt-designer)
+- [*MNT NanoPlaceR*](https://github.com/cda-tum/mnt-nanoplacer) — Reinforcement learning for gate placement with routing during placement. [Usage](https://github.com/cda-tum/mnt-nanoplacer#usage)
+- [*MNT Bench*](https://github.com/cda-tum/mnt-bench) — Benchmark circuits and layouts for comparing FCN design methods. [Benchmark explorer](https://www.cda.cit.tum.de/mntbench/) · [Documentation](https://www.cda.cit.tum.de/mntbench/description)
+- [*Operational Domain Explorer*](https://github.com/cda-tum/mnt-opdom-explorer) — Graphical tool for exploring the physical parameters under which SiDB gates operate correctly. [Documentation](https://github.com/cda-tum/mnt-opdom-explorer#readme)
+- [*Plugins for SiQAD*](https://github.com/cda-tum/mnt-siqad-plugins) — ClusterComplete, QuickExact, and QuickSim simulation engines for the SiQAD graphical environment. [Quick start](https://github.com/cda-tum/mnt-siqad-plugins#quick-start)
+- [*Bestagon Gate Library*](https://github.com/cda-tum/mnt-bestagon-library) — Hexagonal gate layouts and simulation files for SiDB logic. [Gate library files](https://github.com/cda-tum/mnt-bestagon-library#readme)
 
 ## Book
 
